@@ -1,0 +1,59 @@
+@"
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files (ANY location)
+# =========================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+
+# =========================
+# DVC-tracked directories
+# =========================
+data/
+models/
+
+# =========================
+# ML artifacts
+# =========================
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# =========================
+# Logs & outputs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+Thumbs.db
+.DS_Store
+.vscode/
+"@ | Set-Content .gitignore
